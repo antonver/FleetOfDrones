@@ -1,0 +1,30 @@
+# Environment
+.env
+.env.local
+*.env
+
+# Go
+go.sum
+*.out
+*.test
+*.o
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build
+bin/
+dist/
+build/
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
