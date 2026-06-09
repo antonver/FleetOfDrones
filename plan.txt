@@ -9,3 +9,36 @@
 + диспетчерская которая постоянно принимает заказы и 
 
 
+bd:
+
+Table orders:
+
+id: int
+kg: float
+model: string
+type: food, notfood
+final_point: coordianates postgres special fieald
+orders_time: time
+status: Delivared | Pending | is_being_delivered | Canceled
+fleet: int(id)
+
+Table drones:
+
+id: int
+version: float
+model: string
+
+
+Table drone_models:
+
+id: int
+name: string
+battery: int
+max_mass: float
+
+
+Fleet:
+
+id: int
+city: string
+country: string
